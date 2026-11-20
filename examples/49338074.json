@@ -1,0 +1,1439 @@
+{
+  "record_id": "[已脱敏]",
+  "patient": {
+    "登记号": "[已脱敏]",
+    "性别": "2",
+    "病历类型": "初诊",
+    "性别_text": "女"
+  },
+  "visit": {
+    "病历ID": "[已脱敏]",
+    "就诊日期": "2026-06-23 00:00:00",
+    "就诊医生": "[已脱敏]",
+    "医生所属科室": "乳腺外科",
+    "就诊次数级别": "level_1"
+  },
+  "chief_complaint": {
+    "raw": "发现双乳结节半年",
+    "structured": {
+      "symptoms": [
+        {
+          "text": "双乳结节",
+          "std": "乳腺结节",
+          "side": "双",
+          "duration": "半年",
+          "onset": "",
+          "anchor": {
+            "field": "主诉",
+            "seg_start": 0,
+            "quote": "发现双乳结节半年"
+          }
+        }
+      ]
+    },
+    "source_patch": "narrative_restore_20261016"
+  },
+  "present_illness": {
+    "raw": "发现双乳结节半年，无红肿痛等不适，偶有乳腺胀痛。精神睡眠食欲可，二便无异常。就诊，要求B超检查。",
+    "structured": {
+      "symptoms": [
+        {
+          "text": "双乳结节",
+          "std": "乳腺结节",
+          "side": "双",
+          "duration": "半年",
+          "character": "",
+          "trend": "",
+          "neg": false,
+          "anchor": {
+            "field": "现病史",
+            "seg_start": 0,
+            "quote": "发现双乳结节半年"
+          }
+        },
+        {
+          "text": "红肿",
+          "std": "红肿",
+          "side": "未指明",
+          "duration": "",
+          "character": "",
+          "trend": "",
+          "neg": true,
+          "anchor": {
+            "field": "现病史",
+            "seg_start": 0,
+            "quote": "无红肿痛等不适"
+          }
+        },
+        {
+          "text": "痛",
+          "std": "疼痛",
+          "side": "未指明",
+          "duration": "",
+          "character": "",
+          "trend": "",
+          "neg": true,
+          "anchor": {
+            "field": "现病史",
+            "seg_start": 0,
+            "quote": "无红肿痛等不适"
+          }
+        },
+        {
+          "text": "不适",
+          "std": "不适",
+          "side": "未指明",
+          "duration": "",
+          "character": "",
+          "trend": "",
+          "neg": true,
+          "anchor": {
+            "field": "现病史",
+            "seg_start": 0,
+            "quote": "无红肿痛等不适"
+          }
+        },
+        {
+          "text": "乳腺胀痛",
+          "std": "乳房胀痛",
+          "side": "未指明",
+          "duration": "偶有",
+          "character": "胀痛",
+          "trend": "",
+          "neg": false,
+          "anchor": {
+            "field": "现病史",
+            "seg_start": 0,
+            "quote": "偶有乳腺胀痛"
+          }
+        },
+        {
+          "text": "精神",
+          "std": "精神状态",
+          "side": "未指明",
+          "duration": "",
+          "character": "可",
+          "trend": "",
+          "neg": false,
+          "anchor": {
+            "field": "现病史",
+            "seg_start": 0,
+            "quote": "精神睡眠食欲可"
+          }
+        },
+        {
+          "text": "睡眠",
+          "std": "睡眠",
+          "side": "未指明",
+          "duration": "",
+          "character": "可",
+          "trend": "",
+          "neg": false,
+          "anchor": {
+            "field": "现病史",
+            "seg_start": 0,
+            "quote": "精神睡眠食欲可"
+          }
+        },
+        {
+          "text": "食欲",
+          "std": "食欲",
+          "side": "未指明",
+          "duration": "",
+          "character": "可",
+          "trend": "",
+          "neg": false,
+          "anchor": {
+            "field": "现病史",
+            "seg_start": 0,
+            "quote": "精神睡眠食欲可"
+          }
+        },
+        {
+          "text": "二便",
+          "std": "二便情况",
+          "side": "未指明",
+          "duration": "",
+          "character": "无异常",
+          "trend": "",
+          "neg": true,
+          "anchor": {
+            "field": "现病史",
+            "seg_start": 0,
+            "quote": "二便无异常"
+          }
+        }
+      ],
+      "care_history": [
+        {
+          "time": "",
+          "kind": "检查",
+          "detail": "就诊，要求B超检查",
+          "place": "",
+          "anchor": {
+            "field": "现病史",
+            "seg_start": 0,
+            "quote": "就诊，要求B超检查"
+          }
+        }
+      ],
+      "medications": []
+    },
+    "source_patch": "narrative_restore_20261016"
+  },
+  "past_history": {
+    "raw": "破宫产术后27年，2016行子宫切除术，有乙肝病史多年，  既往身体健康。",
+    "structured": {
+      "care_history": [],
+      "medications": [],
+      "comorbidities": [
+        {
+          "name": "乙肝",
+          "std": "乙型病毒性肝炎",
+          "icd10": "B16.9",
+          "status": "既往",
+          "anchor": {
+            "field": "既往史",
+            "seg_start": 0,
+            "quote": "有乙肝病史多年"
+          }
+        }
+      ],
+      "surgeries": [
+        {
+          "name": "破宫产术",
+          "date": "27年前",
+          "anchor": {
+            "field": "既往史",
+            "seg_start": 0,
+            "quote": "破宫产术后27年"
+          }
+        },
+        {
+          "name": "子宫切除术",
+          "date": "2016",
+          "anchor": {
+            "field": "既往史",
+            "seg_start": 0,
+            "quote": "2016行子宫切除术"
+          }
+        }
+      ],
+      "menstrual": {},
+      "family": {}
+    },
+    "source_patch": "narrative_restore_20261016"
+  },
+  "physical_exam": {
+    "raw": "一般情况好，右乳已除，右胸壁上段进疤痕皮肤变韧、泛红，左乳（-),腋LN（-）。",
+    "structured": {
+      "breast": [
+        {
+          "side": "右",
+          "site": "右乳",
+          "finding": "已除",
+          "size": "",
+          "texture": "",
+          "border": "",
+          "mobility": "",
+          "skin": "",
+          "nipple": "",
+          "anchor": {
+            "field": "体格检查",
+            "seg_start": 0,
+            "quote": "一般情况好，右乳已除"
+          }
+        },
+        {
+          "side": "右",
+          "site": "右胸壁上段",
+          "finding": "疤痕",
+          "size": "",
+          "texture": "皮肤变韧",
+          "border": "",
+          "mobility": "",
+          "skin": "泛红",
+          "nipple": "",
+          "anchor": {
+            "field": "体格检查",
+            "seg_start": 0,
+            "quote": "右胸壁上段进疤痕皮肤变韧、泛红"
+          }
+        },
+        {
+          "side": "左",
+          "site": "左乳",
+          "finding": "(-)",
+          "size": "",
+          "texture": "",
+          "border": "",
+          "mobility": "",
+          "skin": "",
+          "nipple": "",
+          "anchor": {
+            "field": "体格检查",
+            "seg_start": 0,
+            "quote": "左乳（-),腋LN（-）"
+          }
+        }
+      ],
+      "lymph_nodes": [
+        {
+          "region": "腋LN",
+          "side": "左",
+          "size": "",
+          "nature": "未见异常",
+          "anchor": {
+            "field": "体格检查",
+            "seg_start": 0,
+            "quote": "左乳（-),腋LN（-）"
+          }
+        }
+      ],
+      "general": [
+        {
+          "finding": "一般情况好",
+          "anchor": {
+            "field": "体格检查",
+            "seg_start": 0,
+            "quote": "一般情况好，右乳已除"
+          }
+        }
+      ],
+      "vitals": {}
+    },
+    "source_patch": "narrative_restore_20261016"
+  },
+  "auxiliary_exam": {
+    "report_groups": [],
+    "reports": [
+      {
+        "report_group": "CT_20240626",
+        "section_seq": 1,
+        "report_type": "CT",
+        "exam_name": "CT",
+        "exam_date": "2024-06-26",
+        "body_site": "肝",
+        "laterality": "未指明",
+        "impressions": [
+          {
+            "text": "肝S4小囊肿可能，不除外转移瘤，建议定期复查",
+            "site_hint": "肝S4",
+            "side_hint": "未指明"
+          }
+        ]
+      },
+      {
+        "report_group": "ECT_20240627",
+        "section_seq": 1,
+        "report_type": "核医学",
+        "exam_name": "骨ECT",
+        "exam_date": "2024-06-27",
+        "body_site": "骨",
+        "laterality": "未指明",
+        "grading_system": "全身多发",
+        "impressions": [
+          {
+            "text": "骨转移瘤（全身多发），建议3-6个月后复查",
+            "site_hint": "全身骨骼",
+            "side_hint": "未指明"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "骨ECT"
+      },
+      {
+        "report_group": "病理_20240704",
+        "section_seq": 1,
+        "report_type": "病理",
+        "exam_name": "右前胸壁皮肤活检病理",
+        "exam_date": "2024-07-04",
+        "body_site": "胸壁",
+        "laterality": "右",
+        "impressions": [
+          {
+            "text": "纤维结缔组织浸润性或转移性癌，结合病史及免疫组化结果，符合乳腺癌来源",
+            "site_hint": "右前胸壁皮肤",
+            "side_hint": "右"
+          }
+        ],
+        "body_site_text": "右前胸壁",
+        "body_site_src": "rule"
+      },
+      {
+        "report_group": "CT眼眶_20241009",
+        "section_seq": 1,
+        "report_type": "CT",
+        "exam_name": "眼眶CT",
+        "exam_date": "2024-10-09",
+        "body_site": "其他",
+        "laterality": "左",
+        "impressions": [
+          {
+            "text": "左侧眼眶内侧壁、前颅窝底、额骨占位，结合病史，考虑转移瘤可能性大，复查如上述，请结合临床",
+            "site_hint": "左侧眼眶内侧壁/前颅窝底/额骨",
+            "side_hint": "左"
+          }
+        ],
+        "body_site_text": "眼眶",
+        "body_site_src": "other_organ"
+      },
+      {
+        "report_group": "CT_20240626",
+        "section_seq": 1,
+        "report_type": "CT",
+        "exam_name": "CT",
+        "exam_date": "2024-06-26",
+        "body_site": "肝",
+        "laterality": "未指明",
+        "impressions": [
+          {
+            "text": "肝S4小囊肿可能，不除外转移瘤，建议定期复查",
+            "site_hint": "肝S4",
+            "side_hint": "未指明"
+          }
+        ]
+      },
+      {
+        "report_group": "ECT_20240627",
+        "section_seq": 1,
+        "report_type": "核医学",
+        "exam_name": "骨ECT",
+        "exam_date": "2024-06-27",
+        "body_site": "骨",
+        "laterality": "未指明",
+        "grading_system": "全身多发",
+        "impressions": [
+          {
+            "text": "骨转移瘤（全身多发），建议3-6个月后复查",
+            "site_hint": "全身骨骼",
+            "side_hint": "未指明"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "骨ECT"
+      },
+      {
+        "report_group": "病理_20240704",
+        "section_seq": 1,
+        "report_type": "病理",
+        "exam_name": "右前胸壁皮肤活检病理",
+        "exam_date": "2024-07-04",
+        "body_site": "胸壁",
+        "laterality": "右",
+        "impressions": [
+          {
+            "text": "纤维结缔组织浸润性或转移性癌，结合病史及免疫组化结果，符合乳腺癌来源",
+            "site_hint": "右前胸壁皮肤",
+            "side_hint": "右"
+          }
+        ],
+        "body_site_text": "右前胸壁",
+        "body_site_src": "rule"
+      },
+      {
+        "report_group": "CT眼眶_20241009",
+        "section_seq": 1,
+        "report_type": "CT",
+        "exam_name": "眼眶CT",
+        "exam_date": "2024-10-09",
+        "body_site": "其他",
+        "laterality": "左",
+        "impressions": [
+          {
+            "text": "左侧眼眶内侧壁、前颅窝底、额骨占位，结合病史，考虑转移瘤可能性大，复查如上述，请结合临床",
+            "site_hint": "左侧眼眶内侧壁/前颅窝底/额骨",
+            "side_hint": "左"
+          }
+        ],
+        "body_site_text": "眼眶",
+        "body_site_src": "other_organ"
+      },
+      {
+        "report_group": "感染与生化",
+        "section_seq": 1,
+        "report_type": "检验报告",
+        "exam_name": "感染性疾病综合性检查",
+        "exam_name_alt": "乙肝五项+丙肝+HIV+梅毒",
+        "exam_date": "2024-06-26",
+        "body_site": "",
+        "laterality": "未指明",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "HBsAg 2941.81IU/ml（高），Anti-HBs 1.43mIU/ml，HBeAg 0.00PEIu/ml，Anti-HBe >4.40PEIu/ml，Anti-HBc >12.60PEIu/ml，HCV 0.06S/CO（阴性），HIV 0.12S/CO（阴性），TP-PA 0.04S/CO（阴性）；提示慢性乙肝活动期",
+            "site_hint": "",
+            "side_hint": "未指明"
+          }
+        ],
+        "enum_leak": "lab_in_reports",
+        "report_type_text": "检验报告",
+        "body_site_text": "血清",
+        "site_not_applicable": true
+      },
+      {
+        "report_group": "影像",
+        "section_seq": 1,
+        "report_type": "CT",
+        "exam_name": "胸腹盆CT",
+        "exam_name_alt": "",
+        "exam_date": "2024-06-26",
+        "body_site": "肝",
+        "laterality": "未指明",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "肝S4小囊肿可能，不除外转移瘤，建议定期复查",
+            "site_hint": "肝S4",
+            "side_hint": "未指明"
+          },
+          {
+            "text": "盆腔占位，考虑肿瘤性病变，转移瘤？囊腺癌？建议进一步检查",
+            "site_hint": "盆腔",
+            "side_hint": "未指明"
+          },
+          {
+            "text": "胸、腰椎及骨盆多发骨转移瘤",
+            "site_hint": "胸椎+腰椎+骨盆",
+            "side_hint": "未指明"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "CT报告",
+        "body_site_multi": "肝+盆腔+胸腰椎+骨盆",
+        "body_site_text": "肝+盆腔+胸腰椎+骨盆",
+        "body_site_src": "rule"
+      },
+      {
+        "report_group": "病理与免疫组化",
+        "section_seq": 1,
+        "report_type": "病理",
+        "exam_name": "皮肤活检病理",
+        "exam_name_alt": "右前胸壁皮肤活检术后标本",
+        "exam_date": "2024-07-04",
+        "body_site": "胸壁",
+        "laterality": "右",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "纤维结缔组织浸润性或转移性癌，结合病史及免疫组化结果，符合乳腺癌来源",
+            "site_hint": "右前胸壁皮肤",
+            "side_hint": "右"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "病理报告",
+        "body_site_text": "皮肤（右前胸壁）",
+        "body_site_src": "rule"
+      },
+      {
+        "report_group": "血液",
+        "section_seq": 1,
+        "report_type": "检验报告",
+        "exam_name": "血常规",
+        "exam_name_alt": "",
+        "exam_date": "2024-09-06",
+        "body_site": "其他",
+        "laterality": "未指明",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "血常规：WBC 2.84×10^9/L↓，RBC 3.85×10^12/L，HGB 126.00g/L，PLT 168.00×10^9/L，NEU% 0.1720↓",
+            "site_hint": "",
+            "side_hint": "未指明"
+          }
+        ],
+        "enum_leak": "lab_in_reports",
+        "report_type_text": "检验报告",
+        "body_site_text": "静脉血",
+        "body_site_src": "other_organ"
+      },
+      {
+        "report_group": "肝功能",
+        "section_seq": 1,
+        "report_type": "检验报告",
+        "exam_name": "肝功能十六项",
+        "exam_name_alt": "",
+        "exam_date": "2025-02-07",
+        "body_site": "其他",
+        "laterality": "未指明",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "GGT 208U/L↑，TBA 25.0μmol/L↑，AST 678U/L↑，ALT 1308U/L↑",
+            "site_hint": "",
+            "side_hint": "未指明"
+          }
+        ],
+        "enum_leak": "lab_in_reports",
+        "report_type_text": "检验报告",
+        "body_site_text": "静脉血",
+        "body_site_src": "other_organ"
+      },
+      {
+        "report_group": "病毒学",
+        "section_seq": 1,
+        "report_type": "检验报告",
+        "exam_name": "乙型肝炎病毒DNA",
+        "exam_name_alt": "HBV-DNA定量",
+        "exam_date": "2025-02-10",
+        "body_site": "其他",
+        "laterality": "未指明",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "HBV-DNA 1.18E+07IU/ml，病毒复制活跃",
+            "site_hint": "",
+            "side_hint": "未指明"
+          }
+        ],
+        "enum_leak": "lab_in_reports",
+        "report_type_text": "检验报告",
+        "body_site_text": "静脉血",
+        "body_site_src": "other_organ"
+      },
+      {
+        "report_group": "CT_20240626",
+        "section_seq": 2,
+        "report_type": "CT",
+        "exam_name": "CT",
+        "exam_date": "2024-06-26",
+        "body_site": "盆腔",
+        "laterality": "未指明",
+        "impressions": [
+          {
+            "text": "盆腔占位，考虑肿瘤性病变，转移瘤？囊腺癌？建议进一步检查",
+            "site_hint": "盆腔",
+            "side_hint": "未指明"
+          }
+        ]
+      },
+      {
+        "report_group": "CT_20240626",
+        "section_seq": 2,
+        "report_type": "CT",
+        "exam_name": "CT",
+        "exam_date": "2024-06-26",
+        "body_site": "盆腔",
+        "laterality": "未指明",
+        "impressions": [
+          {
+            "text": "盆腔占位，考虑肿瘤性病变，转移瘤？囊腺癌？建议进一步检查",
+            "site_hint": "盆腔",
+            "side_hint": "未指明"
+          }
+        ]
+      },
+      {
+        "report_group": "影像",
+        "section_seq": 2,
+        "report_type": "核医学",
+        "exam_name": "全身骨ECT",
+        "exam_name_alt": "骨显像",
+        "exam_date": "2024-06-27",
+        "body_site": "骨",
+        "laterality": "未指明",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "骨转移瘤（全身多发），建议3-6个月后复查",
+            "site_hint": "全身多发骨",
+            "side_hint": "未指明"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "骨扫描",
+        "body_site_text": "全身骨",
+        "body_site_src": "rule"
+      },
+      {
+        "report_group": "病理与免疫组化",
+        "section_seq": 2,
+        "report_type": "分子与基因检测",
+        "exam_name": "HER2基因FISH检测",
+        "exam_name_alt": "",
+        "exam_date": "2024-07-04",
+        "body_site": "其他",
+        "laterality": "未指明",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "HER2基因无扩增",
+            "site_hint": "",
+            "side_hint": "未指明"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "FISH报告",
+        "body_site_text": "肿瘤组织",
+        "body_site_src": "other_organ"
+      },
+      {
+        "report_group": "血液",
+        "section_seq": 2,
+        "report_type": "检验报告",
+        "exam_name": "血常规",
+        "exam_name_alt": "",
+        "exam_date": "2024-10-06",
+        "body_site": "其他",
+        "laterality": "未指明",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "血常规：WBC 3.20×10^9/L↓，RBC 3.52×10^12/L，NEU% 0.2060↓，NEU 0.66×10^9/L↓",
+            "site_hint": "",
+            "side_hint": "未指明"
+          }
+        ],
+        "enum_leak": "lab_in_reports",
+        "report_type_text": "检验报告",
+        "body_site_text": "静脉血",
+        "body_site_src": "other_organ"
+      },
+      {
+        "report_group": "肝功能",
+        "section_seq": 2,
+        "report_type": "检验报告",
+        "exam_name": "肝功能十六项",
+        "exam_name_alt": "",
+        "exam_date": "2025-03-13",
+        "body_site": "其他",
+        "laterality": "未指明",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "AST 92U/L↑，ALT 50U/L↑",
+            "site_hint": "",
+            "side_hint": "未指明"
+          }
+        ],
+        "enum_leak": "lab_in_reports",
+        "report_type_text": "检验报告",
+        "body_site_text": "静脉血",
+        "body_site_src": "other_organ"
+      },
+      {
+        "report_group": "CT_20240626",
+        "section_seq": 3,
+        "report_type": "CT",
+        "exam_name": "CT",
+        "exam_date": "2024-06-26",
+        "body_site": "骨",
+        "laterality": "未指明",
+        "impressions": [
+          {
+            "text": "胸、腰椎及骨盆多发骨转移瘤",
+            "site_hint": "胸椎/腰椎/骨盆",
+            "side_hint": "未指明"
+          }
+        ]
+      },
+      {
+        "report_group": "CT_20240626",
+        "section_seq": 3,
+        "report_type": "CT",
+        "exam_name": "CT",
+        "exam_date": "2024-06-26",
+        "body_site": "骨",
+        "laterality": "未指明",
+        "impressions": [
+          {
+            "text": "胸、腰椎及骨盆多发骨转移瘤",
+            "site_hint": "胸椎/腰椎/骨盆",
+            "side_hint": "未指明"
+          }
+        ]
+      },
+      {
+        "report_group": "影像",
+        "section_seq": 3,
+        "report_type": "CT",
+        "exam_name": "眼眶CT",
+        "exam_name_alt": "与2024-07-22眼眶MRI对比",
+        "exam_date": "2024-10-09",
+        "body_site": "其他",
+        "laterality": "左",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "左侧眼眶内侧壁、前颅窝底、额骨占位，结合病史，考虑转移瘤可能性大，左侧眼眶内侧壁病灶较前缩小，余所见大致同前",
+            "site_hint": "眼眶内侧壁+前颅窝底+额骨",
+            "side_hint": "左"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "CT报告",
+        "body_site_multi": "左侧眼眶内侧壁+前颅窝底+额骨",
+        "body_site_text": "左侧眼眶内侧壁+前颅窝底+额骨",
+        "body_site_src": "other_organ"
+      }
+    ],
+    "labs": [
+      {
+        "exam_date": "2024-06-26",
+        "panel_name": "感染性疾病综合性检查",
+        "results": [
+          {
+            "code": "HBsAg",
+            "name": "HBsAg",
+            "value": "2941.81",
+            "unit": "IU/ml",
+            "flag": "未知"
+          },
+          {
+            "code": "Anti-HBs",
+            "name": "Anti-HBs",
+            "value": "1.43",
+            "unit": "mIU/ml",
+            "flag": "未知"
+          },
+          {
+            "code": "HBeAg",
+            "name": "HBeAg",
+            "value": "0.00",
+            "unit": "PEIu/ml",
+            "flag": "未知"
+          },
+          {
+            "code": "Anti-HBe",
+            "name": "Anti-HBe",
+            "value": ">4.40",
+            "unit": "PEIu/ml",
+            "flag": "未知"
+          },
+          {
+            "code": "Anti-HBc",
+            "name": "Anti-HBc",
+            "value": ">12.60",
+            "unit": "PEIu/ml",
+            "flag": "未知"
+          },
+          {
+            "code": "HCV",
+            "name": "HCV",
+            "value": "0.06",
+            "unit": "S/CO",
+            "flag": "未知"
+          },
+          {
+            "code": "HIV",
+            "name": "HIV",
+            "value": "0.12",
+            "unit": "S/CO",
+            "flag": "未知"
+          },
+          {
+            "code": "TP-PA",
+            "name": "TP-PA",
+            "value": "0.04",
+            "unit": "S/CO",
+            "flag": "未知"
+          }
+        ]
+      },
+      {
+        "exam_date": "2024-09-06",
+        "panel_name": "血常规",
+        "results": [
+          {
+            "code": "WBC",
+            "name": "WBC",
+            "value": "2.84",
+            "unit": "×10^9/L",
+            "flag": "未知"
+          },
+          {
+            "code": "RBC",
+            "name": "RBC",
+            "value": "3.85",
+            "unit": "×10^12/L",
+            "flag": "未知"
+          },
+          {
+            "code": "HGB",
+            "name": "HGB",
+            "value": "126.00",
+            "unit": "g/L",
+            "flag": "未知"
+          },
+          {
+            "code": "PLT",
+            "name": "PLT",
+            "value": "168.00",
+            "unit": "×10^9/L",
+            "flag": "未知"
+          },
+          {
+            "code": "NEU%",
+            "name": "NEU%",
+            "value": "0.1720",
+            "unit": "",
+            "flag": "未知"
+          }
+        ]
+      },
+      {
+        "exam_date": "2024-10-06",
+        "panel_name": "血常规",
+        "results": [
+          {
+            "code": "WBC",
+            "name": "WBC",
+            "value": "3.20",
+            "unit": "×10^9/L",
+            "flag": "未知"
+          },
+          {
+            "code": "RBC",
+            "name": "RBC",
+            "value": "3.52",
+            "unit": "×10^12/L",
+            "flag": "未知"
+          },
+          {
+            "code": "NEU%",
+            "name": "NEU%",
+            "value": "0.2060",
+            "unit": "",
+            "flag": "未知"
+          },
+          {
+            "code": "NEU",
+            "name": "NEU",
+            "value": "0.66",
+            "unit": "×10^9/L",
+            "flag": "未知"
+          }
+        ]
+      },
+      {
+        "exam_date": "2025-02-07",
+        "panel_name": "肝功能十六项",
+        "results": [
+          {
+            "code": "GGT",
+            "name": "GGT",
+            "value": "208",
+            "unit": "U/L",
+            "flag": "未知"
+          },
+          {
+            "code": "TBA",
+            "name": "TBA",
+            "value": "25.0",
+            "unit": "μmol/L",
+            "flag": "未知"
+          },
+          {
+            "code": "AST",
+            "name": "AST",
+            "value": "678",
+            "unit": "U/L",
+            "flag": "未知"
+          },
+          {
+            "code": "ALT",
+            "name": "ALT",
+            "value": "1308",
+            "unit": "U/L",
+            "flag": "未知"
+          }
+        ]
+      },
+      {
+        "exam_date": "2025-02-10",
+        "panel_name": "乙型肝炎病毒DNA",
+        "results": [
+          {
+            "code": "HBV-DNA",
+            "name": "HBV-DNA",
+            "value": "1.18E+07",
+            "unit": "IU/ml",
+            "flag": "未知"
+          }
+        ]
+      },
+      {
+        "exam_date": "2025-03-13",
+        "panel_name": "肝功能十六项",
+        "results": [
+          {
+            "code": "AST",
+            "name": "AST",
+            "value": "92",
+            "unit": "U/L",
+            "flag": "高"
+          },
+          {
+            "code": "ALT",
+            "name": "ALT",
+            "value": "50",
+            "unit": "U/L",
+            "flag": "高"
+          }
+        ]
+      }
+    ],
+    "ihc": {
+      "panels": [
+        {
+          "exam_date": "2024-07-04",
+          "specimen": "右前胸壁皮肤活检",
+          "markers": [
+            {
+              "marker_name": "GATA-3",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            },
+            {
+              "marker_name": "ER",
+              "status": "阳性",
+              "percent": 95.0,
+              "score": null,
+              "intensity": "强",
+              "raw_value": "强阳，95%",
+              "call": "阳性",
+              "call_basis": "95% ≥1%",
+              "call_standard": "ASCO-CAP",
+              "call_src": "derived"
+            },
+            {
+              "marker_name": "PR",
+              "status": "阳性",
+              "percent": 95.0,
+              "score": null,
+              "intensity": "强",
+              "raw_value": "强阳，95%",
+              "call": "阳性",
+              "call_basis": "95% ≥1%",
+              "call_standard": "ASCO-CAP",
+              "call_src": "derived"
+            },
+            {
+              "marker_name": "HER2",
+              "status": "不确定",
+              "percent": null,
+              "score": "2+",
+              "intensity": null,
+              "raw_value": "2+",
+              "call": "阴性",
+              "call_basis": "记录级 ISH：HER2基因无扩增",
+              "call_standard": "ASCO-CAP",
+              "call_src": "derived_ish"
+            },
+            {
+              "marker_name": "Ki-67",
+              "status": "不适用",
+              "percent": 20.0,
+              "score": null,
+              "intensity": null,
+              "raw_value": "20%+",
+              "ki67_band": "高增殖",
+              "call_basis": "全部 ≥20%",
+              "call_standard": "St Gallen",
+              "call": "",
+              "call_src": "derived"
+            }
+          ],
+          "fish_results": [
+            {
+              "code": "HER2",
+              "name": "HER2基因 FISH",
+              "result": "无扩增",
+              "call": "阴性"
+            }
+          ],
+          "clinical_interpretation": "Luminal B型（HER2阴性型）- ER阳性95%、PR阳性95%、HER2 2+无扩增、Ki-67 20%+"
+        },
+        {
+          "exam_date": "2024-07-04",
+          "source_report": "HER2基因FISH检测",
+          "sample_site": "肿瘤组织",
+          "markers": [
+            {
+              "marker_name": "HER2(FISH)",
+              "status": "阴性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "无扩增",
+              "call": "阴性",
+              "call_basis": "ISH 未见扩增",
+              "call_standard": "ASCO-CAP",
+              "call_src": "derived"
+            }
+          ]
+        }
+      ]
+    },
+    "excluded_text": [],
+    "summary": null
+  },
+  "diagnoses": {
+    "items": [
+      {
+        "name": "乳腺恶性肿瘤",
+        "icd_yb_code": "C50.900",
+        "setting": "未指明",
+        "tnm": {
+          "prefix": "",
+          "t": "未提及",
+          "n": "未提及",
+          "m": "未提及",
+          "stage": "未提及",
+          "source_field": "",
+          "prefix_norm": "",
+          "t_norm": "",
+          "n_norm": "",
+          "m_norm": "",
+          "stage_norm": ""
+        },
+        "ihc_hint": "",
+        "icd_yb_name": "乳房恶性肿瘤",
+        "icd_level": "名称精确",
+        "icd_conf": "高",
+        "side": "未指明",
+        "icd_basis": "诊断名精确命中医保版2.0字典(C50.900)"
+      },
+      {
+        "name": "眼眶肿物(继发恶性肿瘤)",
+        "icd_yb_code": "H05.901",
+        "setting": "未指明",
+        "tnm": {
+          "prefix": "",
+          "t": "未提及",
+          "n": "未提及",
+          "m": "未提及",
+          "stage": "未提及",
+          "source_field": "",
+          "prefix_norm": "",
+          "t_norm": "",
+          "n_norm": "",
+          "m_norm": "",
+          "stage_norm": ""
+        },
+        "ihc_hint": "",
+        "icd_yb_name": "眼眶肿物",
+        "icd_level": "名称精确",
+        "icd_conf": "高",
+        "side": "未指明",
+        "icd_basis": "诊断名精确命中医保版2.0字典(H05.901)"
+      },
+      {
+        "name": "骨继发恶性肿瘤",
+        "icd_yb_code": "C79.500x001",
+        "setting": "未指明",
+        "tnm": {
+          "prefix": "",
+          "t": "未提及",
+          "n": "未提及",
+          "m": "未提及",
+          "stage": "未提及",
+          "source_field": "",
+          "prefix_norm": "",
+          "t_norm": "",
+          "n_norm": "",
+          "m_norm": "",
+          "stage_norm": ""
+        },
+        "ihc_hint": "",
+        "icd_yb_name": "骨继发恶性肿瘤",
+        "icd_level": "名称精确",
+        "icd_conf": "高",
+        "side": "未指明",
+        "icd_basis": "诊断名精确命中医保版2.0字典(C79.500x001)"
+      },
+      {
+        "name": "盆腔肿物(转移瘤)",
+        "icd_yb_code": "R19.002",
+        "setting": "未指明",
+        "tnm": {
+          "prefix": "",
+          "t": "未提及",
+          "n": "未提及",
+          "m": "未提及",
+          "stage": "未提及",
+          "source_field": "",
+          "prefix_norm": "",
+          "t_norm": "",
+          "n_norm": "",
+          "m_norm": "",
+          "stage_norm": ""
+        },
+        "ihc_hint": "",
+        "icd_yb_name": "盆腔肿物",
+        "icd_level": "名称精确",
+        "icd_conf": "高",
+        "side": "未指明",
+        "icd_basis": "诊断名精确命中医保版2.0字典(R19.002)"
+      },
+      {
+        "name": "胸壁继发恶性肿瘤",
+        "icd_yb_code": "C79.800x809",
+        "setting": "未指明",
+        "tnm": {
+          "prefix": "",
+          "t": "未提及",
+          "n": "未提及",
+          "m": "未提及",
+          "stage": "未提及",
+          "source_field": "",
+          "prefix_norm": "",
+          "t_norm": "",
+          "n_norm": "",
+          "m_norm": "",
+          "stage_norm": ""
+        },
+        "ihc_hint": "",
+        "icd_yb_name": "胸壁继发恶性肿瘤",
+        "icd_level": "名称精确",
+        "icd_conf": "高",
+        "side": "未指明",
+        "icd_basis": "诊断名精确命中医保版2.0字典(C79.800x809)"
+      },
+      {
+        "name": "白细胞减少",
+        "icd_yb_code": "D70.x04",
+        "setting": "未指明",
+        "tnm": {
+          "prefix": "",
+          "t": "未提及",
+          "n": "未提及",
+          "m": "未提及",
+          "stage": "未提及",
+          "source_field": "",
+          "prefix_norm": "",
+          "t_norm": "",
+          "n_norm": "",
+          "m_norm": "",
+          "stage_norm": ""
+        },
+        "ihc_hint": "",
+        "icd_yb_name": "白细胞减少",
+        "icd_level": "名称精确",
+        "icd_conf": "高",
+        "side": "未指明",
+        "icd_basis": "诊断名精确命中医保版2.0字典(D70.x04)"
+      },
+      {
+        "name": "肝功能异常",
+        "icd_yb_code": "R94.500",
+        "setting": "未指明",
+        "tnm": {
+          "prefix": "",
+          "t": "未提及",
+          "n": "未提及",
+          "m": "未提及",
+          "stage": "未提及",
+          "source_field": "",
+          "prefix_norm": "",
+          "t_norm": "",
+          "n_norm": "",
+          "m_norm": "",
+          "stage_norm": ""
+        },
+        "ihc_hint": "",
+        "icd_yb_name": "肝功能检查的异常结果",
+        "icd_level": "亚目",
+        "icd_conf": "高",
+        "side": "未指明",
+        "icd_basis": "WHO R94.5→医保版R94.500；显式映射表精确命中"
+      },
+      {
+        "name": "慢性乙型病毒性肝炎",
+        "icd_yb_code": "B18.100",
+        "setting": "未指明",
+        "tnm": {
+          "prefix": "",
+          "t": "未提及",
+          "n": "未提及",
+          "m": "未提及",
+          "stage": "未提及",
+          "source_field": "",
+          "prefix_norm": "",
+          "t_norm": "",
+          "n_norm": "",
+          "m_norm": "",
+          "stage_norm": ""
+        },
+        "ihc_hint": "",
+        "icd_yb_name": "慢性乙型病毒性肝炎，不伴有δ因子",
+        "icd_level": "亚目",
+        "icd_conf": "高",
+        "side": "未指明",
+        "icd_basis": "WHO B18.1→医保版B18.100；显式映射表精确命中"
+      },
+      {
+        "name": "皮疹",
+        "icd_yb_code": "R21.x02",
+        "setting": "未指明",
+        "tnm": {
+          "prefix": "",
+          "t": "未提及",
+          "n": "未提及",
+          "m": "未提及",
+          "stage": "未提及",
+          "source_field": "",
+          "prefix_norm": "",
+          "t_norm": "",
+          "n_norm": "",
+          "m_norm": "",
+          "stage_norm": ""
+        },
+        "ihc_hint": "",
+        "icd_yb_name": "皮疹",
+        "icd_level": "名称精确",
+        "icd_conf": "高",
+        "side": "未指明",
+        "icd_basis": "诊断名精确命中医保版2.0字典(R21.x02)"
+      }
+    ]
+  },
+  "treatment": {
+    "items": [
+      {
+        "text": "右前胸壁皮肤活检术后标本（病理活检）",
+        "modality": "手术"
+      },
+      {
+        "text": "2025-02-07 肝功能异常，GGT 208U/L AST 678U/L ALT 1308U/L",
+        "modality": "其他"
+      },
+      {
+        "text": "2025-02-10 HBV-DNA 1.18E+07IU/ml，提示活动性乙肝病毒复制",
+        "modality": "其他"
+      },
+      {
+        "text": "2024-09-06 血常规白细胞减少 WBC 2.84*10^9/L",
+        "modality": "其他"
+      },
+      {
+        "text": "2024-10-06 血常规白细胞减少 WBC 3.20*10^9/L",
+        "modality": "其他"
+      }
+    ]
+  },
+  "orders": {
+    "items": [
+      {
+        "name": "依西美坦片",
+        "spec": "25mg×30片",
+        "total_qty": "30片",
+        "dose_per": "1片",
+        "unit": "片",
+        "route": "口服",
+        "freq": "每日一次",
+        "duration_days": 28,
+        "remark": "饭后",
+        "category": "药品",
+        "kind": "药品"
+      },
+      {
+        "name": "地舒单抗注射液",
+        "spec": "120mg:1.7ml",
+        "total_qty": "1支",
+        "dose_per": "120mg",
+        "unit": "mg",
+        "route": "皮下注射",
+        "freq": "每四周一次",
+        "duration_days": 1,
+        "category": "药品",
+        "kind": "药品"
+      },
+      {
+        "name": "羟乙磺酸达尔西利片",
+        "spec": "125mg*21片",
+        "total_qty": "21片",
+        "dose_per": "1片",
+        "unit": "片",
+        "route": "口服",
+        "freq": "每日一次",
+        "duration_days": 21,
+        "remark": "外延处方",
+        "category": "药品",
+        "kind": "药品"
+      },
+      {
+        "name": "利可君片",
+        "spec": "20mg×72片",
+        "total_qty": "72片",
+        "dose_per": "1片",
+        "unit": "片",
+        "route": "口服",
+        "freq": "每日三次",
+        "duration_days": 21,
+        "category": "药品",
+        "kind": "药品"
+      },
+      {
+        "name": "富马酸丙酚替诺福韦片",
+        "spec": "25mg×30片",
+        "total_qty": "30片",
+        "dose_per": "1片",
+        "unit": "片",
+        "route": "口服",
+        "freq": "每日一次",
+        "duration_days": 28,
+        "remark": "餐时",
+        "category": "药品",
+        "kind": "药品"
+      },
+      {
+        "name": "血常规",
+        "kind": "检验",
+        "source_field": "follow_up",
+        "source_category": "复查"
+      },
+      {
+        "name": "肝功能十六项",
+        "kind": "检验",
+        "source_field": "follow_up",
+        "source_category": "复查"
+      },
+      {
+        "name": "肾功能4项（Urea,Cr,UA,CO2）",
+        "kind": "检验",
+        "source_field": "follow_up",
+        "source_category": "复查"
+      }
+    ],
+    "advice": [],
+    "narrative": [
+      "血常规",
+      "肝功能十六项",
+      "肾功能4项（Urea,Cr,UA,CO2）",
+      "皮下注射X1次"
+    ]
+  },
+  "follow_up": {
+    "items": []
+  },
+  "qc": {
+    "missing": [],
+    "low_conf": [],
+    "conflicts": [],
+    "review_status": "未核",
+    "note": "未提及诊疗经过、疗效、月经生育史相关内容；IHC、医嘱药品、检验指标均不在本字段范围，不录入。",
+    "excluded_text": []
+  },
+  "meta": {
+    "assembled_from": [
+      "01_patient.json",
+      "01_qc.json",
+      "01_visit.json",
+      "02_chief_complaint.json",
+      "03_present_illness.json",
+      "04_past_history.json",
+      "05_physical_exam.json",
+      "06_auxiliary_exam.json",
+      "07a_diagnoses.json",
+      "07b_treatment.json",
+      "07c_orders.json",
+      "07d_follow_up.json"
+    ],
+    "order_kind_normalized": true
+  }
+}

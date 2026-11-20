@@ -1,0 +1,1732 @@
+{
+  "record_id": "[已脱敏]",
+  "patient": {
+    "登记号": "[已脱敏]",
+    "性别": "2",
+    "病历类型": "初诊",
+    "性别_text": "女"
+  },
+  "visit": {
+    "病历ID": "[已脱敏]",
+    "就诊日期": "2025-12-17 00:00:00",
+    "就诊医生": "[已脱敏]",
+    "医生所属科室": "乳腺外科",
+    "就诊次数级别": "level_2"
+  },
+  "chief_complaint": {
+    "raw": "体检发现左乳结节3个月",
+    "structured": {
+      "symptoms": [
+        {
+          "text": "左乳结节",
+          "std": "乳房结节",
+          "side": "左",
+          "duration": "3个月",
+          "onset": "",
+          "anchor": {
+            "field": "主诉",
+            "seg_start": 0,
+            "quote": "体检发现左乳结节3个月"
+          }
+        }
+      ]
+    },
+    "source_patch": "narrative_restore_20261016"
+  },
+  "present_illness": {
+    "raw": "患者诉体检发现左乳结节3个月，无疼痛溢液，无发热、寒战，要求行超声检查来诊。",
+    "structured": {
+      "symptoms": [
+        {
+          "text": "左乳结节",
+          "std": "乳房结节",
+          "side": "左",
+          "duration": "3个月",
+          "character": "",
+          "trend": "",
+          "neg": false,
+          "anchor": {
+            "field": "现病史",
+            "seg_start": 0,
+            "quote": "体检发现左乳结节3个月"
+          }
+        },
+        {
+          "text": "无疼痛溢液",
+          "std": "",
+          "side": "未指明",
+          "duration": "",
+          "character": "",
+          "trend": "",
+          "neg": true,
+          "anchor": {
+            "field": "现病史",
+            "seg_start": 0,
+            "quote": "无疼痛溢液"
+          }
+        },
+        {
+          "text": "无发热",
+          "std": "",
+          "side": "未指明",
+          "duration": "",
+          "character": "",
+          "trend": "",
+          "neg": true,
+          "anchor": {
+            "field": "现病史",
+            "seg_start": 0,
+            "quote": "无发热、寒战"
+          }
+        },
+        {
+          "text": "无寒战",
+          "std": "",
+          "side": "未指明",
+          "duration": "",
+          "character": "",
+          "trend": "",
+          "neg": true,
+          "anchor": {
+            "field": "现病史",
+            "seg_start": 0,
+            "quote": "无发热、寒战"
+          }
+        }
+      ],
+      "care_history": [
+        {
+          "time": "",
+          "kind": "检查",
+          "detail": "要求行超声检查来诊",
+          "place": "",
+          "anchor": {
+            "field": "现病史",
+            "seg_start": 0,
+            "quote": "要求行超声检查来诊"
+          }
+        }
+      ],
+      "medications": []
+    },
+    "source_patch": "narrative_restore_20261016"
+  },
+  "past_history": {
+    "raw": "无",
+    "structured": {
+      "care_history": [],
+      "medications": [],
+      "comorbidities": [],
+      "surgeries": [],
+      "menstrual": {},
+      "family": {}
+    },
+    "source_patch": "narrative_restore_20261016"
+  },
+  "physical_exam": {
+    "raw": "术口愈合可",
+    "structured": {
+      "breast": [],
+      "lymph_nodes": [],
+      "general": [
+        {
+          "finding": "术口愈合可",
+          "anchor": {
+            "field": "体格检查",
+            "seg_start": 0,
+            "quote": "术口愈合可"
+          }
+        }
+      ],
+      "vitals": {}
+    },
+    "source_patch": "narrative_restore_20261016"
+  },
+  "auxiliary_exam": {
+    "report_groups": [],
+    "reports": [
+      {
+        "report_type": "病理",
+        "exam_name": "病理检查（疑难病理会诊）",
+        "exam_date": "2025-10-08",
+        "body_site": "乳腺",
+        "laterality": "右",
+        "grading_system": "WHO",
+        "impressions": [
+          {
+            "text": "乳腺癌改良根治术标本：乳腺高级别导管原位癌，伴多灶微小浸润性癌（非特殊型浸润性癌Ⅱ级）（最大径<1mm）",
+            "side_hint": "右",
+            "site_hint": "乳腺"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "病理检查（疑难病理会诊）"
+      },
+      {
+        "report_type": "病理",
+        "exam_name": "病理检查（疑难病理会诊）",
+        "exam_date": "2025-10-08",
+        "body_site": "乳腺",
+        "laterality": "右",
+        "grading_system": "WHO",
+        "impressions": [
+          {
+            "text": "肌上皮缺失提示浸润性癌（13号：Calponin阴性，P63阴性）",
+            "side_hint": "右",
+            "site_hint": "乳腺"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "病理检查（疑难病理会诊）"
+      },
+      {
+        "report_type": "病理",
+        "exam_name": "病理检查（疑难病理会诊）",
+        "exam_date": "2025-10-08",
+        "body_site": "乳腺",
+        "laterality": "右",
+        "grading_system": "WHO",
+        "impressions": [
+          {
+            "text": "肌上皮存在不支持浸润性癌（5号、8号：P63、Calponin阳性）",
+            "side_hint": "右",
+            "site_hint": "乳腺"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "病理检查（疑难病理会诊）"
+      },
+      {
+        "report_type": "病理",
+        "exam_name": "病理检查（冰冻）",
+        "exam_date": "2025-09-25",
+        "body_site": "乳腺",
+        "laterality": "未指明",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "乳晕下组织：导管内可见上皮细胞增生",
+            "side_hint": "未指明",
+            "site_hint": "乳晕下组织"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "病理检查（冰冻）"
+      },
+      {
+        "report_type": "病理",
+        "exam_name": "病理检查（冰冻）",
+        "exam_date": "2025-09-25",
+        "body_site": "其他",
+        "laterality": "未指明",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "前哨淋巴结4枚，其中1枚可见转移性癌（1/4）",
+            "side_hint": "未指明",
+            "site_hint": "前哨淋巴结"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "病理检查（冰冻）",
+        "body_site_text": "淋巴结",
+        "body_site_src": "other_organ"
+      },
+      {
+        "report_type": "病理",
+        "exam_name": "病理检查(大手术标本)",
+        "exam_date": "2025-09-23",
+        "body_site": "乳腺",
+        "laterality": "右",
+        "grading_system": "WHO",
+        "impressions": [
+          {
+            "text": "乳腺癌改良根治术标本：乳腺高级别导管原位癌，伴微小浸润性癌。未见脉管癌栓及神经侵犯。基底切缘及皮面切缘均未见癌累及。余乳未见特殊",
+            "side_hint": "右",
+            "site_hint": "乳腺"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "病理检查(大手术标本)"
+      },
+      {
+        "report_type": "病理",
+        "exam_name": "病理检查(大手术标本)",
+        "exam_date": "2025-09-23",
+        "body_site": "其他",
+        "laterality": "右",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "右侧腋窝淋巴结10枚，均未见癌转移（0/10）",
+            "side_hint": "右",
+            "site_hint": "右侧腋窝淋巴结"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "病理检查(大手术标本)",
+        "body_site_text": "淋巴结",
+        "body_site_src": "other_organ"
+      },
+      {
+        "report_type": "病理",
+        "exam_name": "病理检查（肺、淋巴结及其他穿刺组织）",
+        "exam_date": "2025-09-17",
+        "body_site": "其他",
+        "laterality": "右",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "右侧腋窝淋巴结：少量淋巴组织、骨骼肌组织及纤维组织，未见特殊",
+            "side_hint": "右",
+            "site_hint": "右侧腋窝淋巴结"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "病理检查（肺、淋巴结及其他穿刺组织）",
+        "body_site_text": "淋巴结",
+        "body_site_src": "other_organ"
+      },
+      {
+        "report_type": "核医学",
+        "exam_name": "全身骨显像",
+        "exam_date": "2025-09-16",
+        "body_site": "骨",
+        "laterality": "未指明",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "全身骨显像未见明确骨转移征象",
+            "side_hint": "未指明",
+            "site_hint": "全身骨"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "全身骨显像"
+      },
+      {
+        "report_type": "CT",
+        "exam_name": "CT平扫",
+        "exam_date": "2025-09-16",
+        "body_site": "其他",
+        "laterality": "未指明",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "颅脑CT平扫未见异常",
+            "side_hint": "未指明",
+            "site_hint": "颅脑"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "CT平扫",
+        "body_site_text": "脑",
+        "body_site_src": "other_organ"
+      },
+      {
+        "report_type": "CT",
+        "exam_name": "CT平扫",
+        "exam_date": "2025-09-16",
+        "body_site": "其他",
+        "laterality": "未指明",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "两侧上颌窦、筛窦、蝶窦炎症",
+            "side_hint": "未指明",
+            "site_hint": "鼻窦"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "CT平扫",
+        "body_site_text": "鼻窦",
+        "body_site_src": "other_organ"
+      },
+      {
+        "report_type": "CT",
+        "exam_name": "CT平扫",
+        "exam_date": "2025-09-16",
+        "body_site": "肺",
+        "laterality": "双",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "左肺上叶前段、右肺下叶外基底段磨玻璃结节，双肺多发实性结节，性质待定，建议随诊",
+            "side_hint": "双",
+            "site_hint": "肺"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "CT平扫"
+      },
+      {
+        "report_type": "CT",
+        "exam_name": "CT平扫",
+        "exam_date": "2025-09-16",
+        "body_site": "其他",
+        "laterality": "右",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "右肺中叶、两肺下叶支气管炎症伴粘液栓",
+            "side_hint": "右",
+            "site_hint": "支气管"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "CT平扫",
+        "body_site_text": "支气管",
+        "body_site_src": "other_organ"
+      },
+      {
+        "report_type": "超声",
+        "exam_name": "浅表器官超声检查(浅表肿块)",
+        "exam_date": "2025-09-15",
+        "body_site": "其他",
+        "laterality": "右",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "术前超声：右侧腋窝低回声团1.7cm×0.5cm，反应性淋巴结？局部皮质稍增厚",
+            "side_hint": "右",
+            "site_hint": "右侧腋窝淋巴结"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "浅表器官超声检查(浅表肿块)",
+        "body_site_text": "淋巴结",
+        "body_site_src": "other_organ"
+      },
+      {
+        "report_type": "超声",
+        "exam_name": "浅表器官超声检查(浅表肿块)",
+        "exam_date": "2025-09-15",
+        "body_site": "其他",
+        "laterality": "未指明",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "术后复查：穿刺点未见明显出血",
+            "side_hint": "未指明",
+            "site_hint": "穿刺点"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "浅表器官超声检查(浅表肿块)",
+        "body_site_text": "皮肤",
+        "body_site_src": "other_organ"
+      },
+      {
+        "report_type": "超声",
+        "exam_name": "浅表器官超声检查(甲状腺、甲状旁腺)",
+        "exam_date": "2025-09-15",
+        "body_site": "甲状腺",
+        "laterality": "双",
+        "grading_system": "C-TI-RADS",
+        "impressions": [
+          {
+            "text": "甲状腺二叶混合回声团（C-TI-RADS3类）",
+            "side_hint": "双",
+            "site_hint": "甲状腺"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "浅表器官超声检查(甲状腺、甲状旁腺)"
+      },
+      {
+        "report_type": "超声",
+        "exam_name": "浅表器官超声检查(甲状腺、甲状旁腺)",
+        "exam_date": "2025-09-15",
+        "body_site": "其他",
+        "laterality": "双",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "双侧颈部Ⅳ、Ⅴ区多发低回声团（肿大淋巴结？）",
+            "side_hint": "双",
+            "site_hint": "双侧颈部淋巴结"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "浅表器官超声检查(甲状腺、甲状旁腺)",
+        "body_site_text": "淋巴结",
+        "body_site_src": "other_organ"
+      },
+      {
+        "report_type": "超声",
+        "exam_name": "浅表器官超声检查(甲状腺、甲状旁腺)",
+        "exam_date": "2025-09-15",
+        "body_site": "甲状旁腺",
+        "laterality": "双",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "双侧甲状旁腺区域未见明显肿块",
+            "side_hint": "双",
+            "site_hint": "双侧甲状旁腺"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "浅表器官超声检查(甲状腺、甲状旁腺)"
+      },
+      {
+        "report_type": "心电",
+        "exam_name": "常规心电图检查(十二通道)",
+        "exam_date": "2025-09-15",
+        "body_site": "其他",
+        "laterality": "未指明",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "窦性心律正常心电图",
+            "side_hint": "未指明",
+            "site_hint": "心脏"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "常规心电图检查(十二通道)",
+        "body_site_text": "心脏",
+        "body_site_src": "other_organ"
+      },
+      {
+        "report_type": "超声",
+        "exam_name": "彩色超声(腹部系统)",
+        "exam_date": "2025-09-15",
+        "body_site": "胆",
+        "laterality": "未指明",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "餐后胆囊声像",
+            "side_hint": "未指明",
+            "site_hint": "胆囊"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "彩色超声(腹部系统)",
+        "body_site_text": "胆囊",
+        "body_site_src": "rule"
+      },
+      {
+        "report_type": "超声",
+        "exam_name": "彩色超声(腹部系统)",
+        "exam_date": "2025-09-15",
+        "body_site": "肝",
+        "laterality": "未指明",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "肝回声未见异常",
+            "side_hint": "未指明",
+            "site_hint": "肝"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "彩色超声(腹部系统)"
+      },
+      {
+        "report_type": "超声",
+        "exam_name": "彩色超声(腹部系统)",
+        "exam_date": "2025-09-15",
+        "body_site": "胰",
+        "laterality": "未指明",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "胰回声未见异常",
+            "side_hint": "未指明",
+            "site_hint": "胰"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "彩色超声(腹部系统)"
+      },
+      {
+        "report_type": "超声",
+        "exam_name": "彩色超声(腹部系统)",
+        "exam_date": "2025-09-15",
+        "body_site": "脾",
+        "laterality": "未指明",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "脾回声未见异常",
+            "side_hint": "未指明",
+            "site_hint": "脾"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "彩色超声(腹部系统)"
+      },
+      {
+        "report_type": "病理",
+        "exam_name": "病理检查（疑难病理会诊）",
+        "exam_date": "2025-09-10",
+        "body_site": "乳腺",
+        "laterality": "右",
+        "grading_system": "WHO",
+        "impressions": [
+          {
+            "text": "右乳肿物：结合形态及免疫组化，病变为高级别导管原位癌，局部可见微小浸润癌",
+            "side_hint": "右",
+            "site_hint": "乳腺"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "病理检查（疑难病理会诊）"
+      },
+      {
+        "report_type": "病理",
+        "exam_name": "病理检查（疑难病理会诊）",
+        "exam_date": "2025-09-10",
+        "body_site": "乳腺",
+        "laterality": "右",
+        "grading_system": "WHO",
+        "impressions": [
+          {
+            "text": "EXAMPLE-PATH-1（蜡块）：Calponin(+)，CK5/6(+)，P63(+)，SMA(+)结果支持导管原位癌",
+            "side_hint": "右",
+            "site_hint": "乳腺"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "病理检查（疑难病理会诊）"
+      },
+      {
+        "report_type": "病理",
+        "exam_name": "病理检查（疑难病理会诊）",
+        "exam_date": "2025-09-10",
+        "body_site": "乳腺",
+        "laterality": "右",
+        "grading_system": "WHO",
+        "impressions": [
+          {
+            "text": "EXAMPLE-PATH-2（蜡块）：Calponin(局部-)，CK5/6(局部-)，P63(局部-)，SMA(+)导管原位癌，局部可见微小浸润",
+            "side_hint": "右",
+            "site_hint": "乳腺"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "病理检查（疑难病理会诊）"
+      },
+      {
+        "report_type": "病理",
+        "exam_name": "病理检查（疑难病理会诊）",
+        "exam_date": "2025-09-10",
+        "body_site": "乳腺",
+        "laterality": "右",
+        "grading_system": "WHO",
+        "impressions": [
+          {
+            "text": "EXAMPLE-PATH-3（蜡块）：Calponin(+)，CK5/6(+)，P63(+)，SMA(+)结果支持导管原位癌",
+            "side_hint": "右",
+            "site_hint": "乳腺"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "病理检查（疑难病理会诊）"
+      },
+      {
+        "report_type": "病理",
+        "exam_name": "病理检查（疑难病理会诊）",
+        "exam_date": "2025-09-10",
+        "body_site": "乳腺",
+        "laterality": "右",
+        "grading_system": "WHO",
+        "impressions": [
+          {
+            "text": "EXAMPLE-PATH-4（蜡块）：Calponin(+)，CK5/6(+)，P63(+)，SMA(+)，ER*(弱+，约40%)，PR*(弱+，约40%)，HER-2*(3+)，Ki-67*(+，约50%)结果支持导管原位癌",
+            "side_hint": "右",
+            "site_hint": "乳腺"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "病理检查（疑难病理会诊）"
+      },
+      {
+        "report_type": "病理",
+        "exam_name": "病理检查(小手术标本)",
+        "exam_date": "2025-09-08",
+        "body_site": "乳腺",
+        "laterality": "左",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "左乳结节麦默通旋切标本：乳腺腺病，部分导管上皮增生活跃，小灶呈普通型增生",
+            "side_hint": "左",
+            "site_hint": "左乳"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "病理检查(小手术标本)"
+      },
+      {
+        "report_type": "病理",
+        "exam_name": "病理检查(小手术标本)",
+        "exam_date": "2025-09-08",
+        "body_site": "乳腺",
+        "laterality": "右",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "右乳肿物麦默通旋切标本：乳腺中级别导管原位癌，建议行免疫组化进一步诊断",
+            "side_hint": "右",
+            "site_hint": "右乳"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "病理检查(小手术标本)"
+      },
+      {
+        "report_type": "超声",
+        "exam_name": "浅表器官超声检查(乳腺)",
+        "exam_date": "2025-09-03",
+        "body_site": "乳腺",
+        "laterality": "右",
+        "grading_system": "BI-RADS",
+        "impressions": [
+          {
+            "text": "右乳11-2点位置低回声团6.0cm×5.8cm×1.5cm，不规则形，边缘不光整（成角、毛刺），内见多个钙化，血流丰富。BI-RADS5类",
+            "side_hint": "右",
+            "site_hint": "右乳",
+            "grade_raw": "5类"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "浅表器官超声检查(乳腺)",
+        "birads": "5类"
+      },
+      {
+        "report_type": "超声",
+        "exam_name": "浅表器官超声检查(乳腺)",
+        "exam_date": "2025-09-03",
+        "body_site": "乳腺",
+        "laterality": "左",
+        "grading_system": "BI-RADS",
+        "impressions": [
+          {
+            "text": "左乳10-11点位置低回声团0.8cm×0.7cm×0.5cm，椭圆形，边缘光整，内可见条状钙化。BI-RADS4a类",
+            "side_hint": "左",
+            "site_hint": "左乳",
+            "grade_raw": "4a类"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "浅表器官超声检查(乳腺)",
+        "birads": "4a类"
+      },
+      {
+        "report_type": "超声",
+        "exam_name": "浅表器官超声检查(乳腺)",
+        "exam_date": "2025-09-03",
+        "body_site": "乳腺",
+        "laterality": "左",
+        "grading_system": "BI-RADS",
+        "impressions": [
+          {
+            "text": "左乳低至无回声团（较大者2点钟位置0.7cm×0.5cm），BI-RADS2-3类",
+            "side_hint": "左",
+            "site_hint": "左乳",
+            "grade_raw": "2-3类"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "浅表器官超声检查(乳腺)",
+        "birads": "2-3类"
+      },
+      {
+        "report_type": "超声",
+        "exam_name": "浅表器官超声检查(乳腺)",
+        "exam_date": "2025-09-03",
+        "body_site": "其他",
+        "laterality": "右",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "右侧腋窝低回声团（较大者1.7cm×0.5cm），皮质增厚，淋巴门偏移（异常淋巴结？）",
+            "side_hint": "右",
+            "site_hint": "右侧腋窝淋巴结"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "浅表器官超声检查(乳腺)",
+        "body_site_text": "淋巴结",
+        "body_site_src": "other_organ"
+      },
+      {
+        "report_type": "超声",
+        "exam_name": "浅表器官超声检查(乳腺)",
+        "exam_date": "2025-09-03",
+        "body_site": "其他",
+        "laterality": "左",
+        "grading_system": "",
+        "impressions": [
+          {
+            "text": "左侧腋窝未见明显异常肿大淋巴结",
+            "side_hint": "左",
+            "site_hint": "左侧腋窝淋巴结"
+          }
+        ],
+        "report_type_src": "rule",
+        "report_type_text": "浅表器官超声检查(乳腺)",
+        "body_site_text": "淋巴结",
+        "body_site_src": "other_organ"
+      }
+    ],
+    "labs": [],
+    "ihc": {
+      "panels": [
+        {
+          "panel_name": "右乳改良根治术免疫组化（2025-10-08，13号蜡块-浸润性癌区）",
+          "markers": [
+            {
+              "marker_name": "Calponin",
+              "status": "阴性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "-"
+            },
+            {
+              "marker_name": "P63",
+              "status": "阴性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "-"
+            },
+            {
+              "marker_name": "ER",
+              "status": "阳性",
+              "percent": 1.0,
+              "score": null,
+              "intensity": "弱",
+              "raw_value": "弱+，1%",
+              "call": "阳性",
+              "call_basis": "1% ≥1%",
+              "call_standard": "ASCO-CAP",
+              "call_src": "derived"
+            },
+            {
+              "marker_name": "PR",
+              "status": "阳性",
+              "percent": 90.0,
+              "score": null,
+              "intensity": "中",
+              "raw_value": "中阳，约90%",
+              "call": "阳性",
+              "call_basis": "90% ≥1%",
+              "call_standard": "ASCO-CAP",
+              "call_src": "derived"
+            },
+            {
+              "marker_name": "HER2",
+              "status": "阳性",
+              "percent": null,
+              "score": "3+",
+              "intensity": null,
+              "raw_value": "3+",
+              "call": "阳性",
+              "call_basis": "3+",
+              "call_standard": "ASCO-CAP",
+              "call_src": "derived"
+            },
+            {
+              "marker_name": "Ki-67",
+              "status": "不适用",
+              "percent": 5.0,
+              "score": null,
+              "intensity": null,
+              "raw_value": "约5%",
+              "ki67_band": "低增殖",
+              "call_basis": "全部 <20%",
+              "call_standard": "St Gallen",
+              "call": "",
+              "call_src": "derived"
+            },
+            {
+              "marker_name": "E-cadherin",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            }
+          ]
+        },
+        {
+          "panel_name": "右乳改良根治术免疫组化（2025-10-08，5号蜡块-导管原位癌区）",
+          "markers": [
+            {
+              "marker_name": "P63",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            },
+            {
+              "marker_name": "Calponin",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            }
+          ]
+        },
+        {
+          "panel_name": "右乳改良根治术免疫组化（2025-10-08，8号蜡块-导管原位癌区）",
+          "markers": [
+            {
+              "marker_name": "P63",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            },
+            {
+              "marker_name": "Calponin",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            }
+          ]
+        },
+        {
+          "panel_name": "右乳疑难病理会诊免疫组化（2025-09-10，EXAMPLE-PATH-1蜡块）",
+          "markers": [
+            {
+              "marker_name": "Calponin",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            },
+            {
+              "marker_name": "CK5/6",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            },
+            {
+              "marker_name": "P63",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            },
+            {
+              "marker_name": "SMA",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            }
+          ]
+        },
+        {
+          "panel_name": "右乳疑难病理会诊免疫组化（2025-09-10，EXAMPLE-PATH-2蜡块）",
+          "markers": [
+            {
+              "marker_name": "Calponin",
+              "status": "不确定",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "局部-"
+            },
+            {
+              "marker_name": "CK5/6",
+              "status": "不确定",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "局部-"
+            },
+            {
+              "marker_name": "P63",
+              "status": "不确定",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "局部-"
+            },
+            {
+              "marker_name": "SMA",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            }
+          ]
+        },
+        {
+          "panel_name": "右乳疑难病理会诊免疫组化（2025-09-10，EXAMPLE-PATH-3蜡块）",
+          "markers": [
+            {
+              "marker_name": "Calponin",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            },
+            {
+              "marker_name": "CK5/6",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            },
+            {
+              "marker_name": "P63",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            },
+            {
+              "marker_name": "SMA",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            }
+          ]
+        },
+        {
+          "panel_name": "右乳疑难病理会诊免疫组化（2025-09-10，EXAMPLE-PATH-4蜡块）",
+          "markers": [
+            {
+              "marker_name": "Calponin",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            },
+            {
+              "marker_name": "CK5/6",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            },
+            {
+              "marker_name": "P63",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            },
+            {
+              "marker_name": "SMA",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            },
+            {
+              "marker_name": "ER",
+              "status": "阳性",
+              "percent": 40.0,
+              "score": null,
+              "intensity": "弱",
+              "raw_value": "弱+，约40%",
+              "call": "阳性",
+              "call_basis": "40% ≥1%",
+              "call_standard": "ASCO-CAP",
+              "call_src": "derived"
+            },
+            {
+              "marker_name": "PR",
+              "status": "阳性",
+              "percent": 40.0,
+              "score": null,
+              "intensity": "弱",
+              "raw_value": "弱+，约40%",
+              "call": "阳性",
+              "call_basis": "40% ≥1%",
+              "call_standard": "ASCO-CAP",
+              "call_src": "derived"
+            },
+            {
+              "marker_name": "HER2",
+              "status": "阳性",
+              "percent": null,
+              "score": "3+",
+              "intensity": null,
+              "raw_value": "3+",
+              "call": "阳性",
+              "call_basis": "3+",
+              "call_standard": "ASCO-CAP",
+              "call_src": "derived"
+            },
+            {
+              "marker_name": "Ki-67",
+              "status": "不适用",
+              "percent": 50.0,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+，约50%",
+              "ki67_band": "高增殖",
+              "call_basis": "全部 ≥20%",
+              "call_standard": "St Gallen",
+              "call": "",
+              "call_src": "derived"
+            }
+          ]
+        },
+        {
+          "panel_seq": 1,
+          "exam_date": "2025-10-08",
+          "source_exam": "病理检查（疑难病理会诊）",
+          "specimen": "（右乳肿物）13号蜡块（浸润性癌区域）",
+          "markers": [
+            {
+              "marker_name": "Calponin",
+              "status": "阴性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "-"
+            },
+            {
+              "marker_name": "P63",
+              "status": "阴性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "-"
+            },
+            {
+              "marker_name": "ER",
+              "status": "阳性",
+              "percent": 1.0,
+              "score": null,
+              "intensity": "弱",
+              "raw_value": "弱+（1%）",
+              "call": "阳性",
+              "call_basis": "1% ≥1%",
+              "call_standard": "ASCO-CAP",
+              "call_src": "derived"
+            },
+            {
+              "marker_name": "PR",
+              "status": "阳性",
+              "percent": 90.0,
+              "score": null,
+              "intensity": "中",
+              "raw_value": "中阳（约90%）",
+              "call": "阳性",
+              "call_basis": "90% ≥1%",
+              "call_standard": "ASCO-CAP",
+              "call_src": "derived"
+            },
+            {
+              "marker_name": "HER2",
+              "status": "阳性",
+              "percent": null,
+              "score": "3+",
+              "intensity": null,
+              "raw_value": "3+",
+              "call": "阳性",
+              "call_basis": "3+",
+              "call_standard": "ASCO-CAP",
+              "call_src": "derived"
+            },
+            {
+              "marker_name": "Ki-67",
+              "status": "不适用",
+              "percent": 5.0,
+              "score": null,
+              "intensity": null,
+              "raw_value": "约5%",
+              "ki67_band": "低增殖",
+              "call_basis": "全部 <20%",
+              "call_standard": "St Gallen",
+              "call": "",
+              "call_src": "derived"
+            },
+            {
+              "marker_name": "E-cadherin",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            }
+          ]
+        },
+        {
+          "panel_seq": 2,
+          "exam_date": "2025-10-08",
+          "source_exam": "病理检查（疑难病理会诊）",
+          "specimen": "（右乳肿物）5号、8号蜡块（DCIS区域）",
+          "markers": [
+            {
+              "marker_name": "P63",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            },
+            {
+              "marker_name": "Calponin",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            }
+          ]
+        },
+        {
+          "panel_seq": 3,
+          "exam_date": "2025-09-10",
+          "source_exam": "病理检查（疑难病理会诊）",
+          "specimen": "（右乳肿物）EXAMPLE-PATH-1蜡块",
+          "markers": [
+            {
+              "marker_name": "Calponin",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            },
+            {
+              "marker_name": "CK5/6",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            },
+            {
+              "marker_name": "P63",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            },
+            {
+              "marker_name": "SMA",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            }
+          ]
+        },
+        {
+          "panel_seq": 6,
+          "exam_date": "2025-09-10",
+          "source_exam": "病理检查（疑难病理会诊）",
+          "specimen": "（右乳肿物）EXAMPLE-PATH-4蜡块",
+          "markers": [
+            {
+              "marker_name": "Calponin",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            },
+            {
+              "marker_name": "CK5/6",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            },
+            {
+              "marker_name": "P63",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            },
+            {
+              "marker_name": "SMA",
+              "status": "阳性",
+              "percent": null,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+"
+            },
+            {
+              "marker_name": "ER",
+              "status": "阳性",
+              "percent": 40.0,
+              "score": null,
+              "intensity": "弱",
+              "raw_value": "弱+（约40%）",
+              "call": "阳性",
+              "call_basis": "40% ≥1%",
+              "call_standard": "ASCO-CAP",
+              "call_src": "derived"
+            },
+            {
+              "marker_name": "PR",
+              "status": "阳性",
+              "percent": 40.0,
+              "score": null,
+              "intensity": "弱",
+              "raw_value": "弱+（约40%）",
+              "call": "阳性",
+              "call_basis": "40% ≥1%",
+              "call_standard": "ASCO-CAP",
+              "call_src": "derived"
+            },
+            {
+              "marker_name": "HER2",
+              "status": "阳性",
+              "percent": null,
+              "score": "3+",
+              "intensity": null,
+              "raw_value": "3+",
+              "call": "阳性",
+              "call_basis": "3+",
+              "call_standard": "ASCO-CAP",
+              "call_src": "derived"
+            },
+            {
+              "marker_name": "Ki-67",
+              "status": "不适用",
+              "percent": 50.0,
+              "score": null,
+              "intensity": null,
+              "raw_value": "+（约50%）",
+              "ki67_band": "高增殖",
+              "call_basis": "全部 ≥20%",
+              "call_standard": "St Gallen",
+              "call": "",
+              "call_src": "derived"
+            }
+          ]
+        }
+      ]
+    },
+    "excluded_text": [],
+    "summary": null
+  },
+  "diagnoses": {
+    "items": [
+      {
+        "name": "乳腺癌术后",
+        "setting": "未指明",
+        "qc": {
+          "note": "仅四字状态描述，无具体分期、治疗阶段及ICD信息"
+        },
+        "icd_yb_code": "Z98.800",
+        "icd_yb_name": "手术后状态，其他特指的",
+        "icd_level": "亚目",
+        "icd_conf": "高",
+        "side": "未指明",
+        "icd_basis": "WHO Z98.8→医保版Z98.800；显式映射表精确命中"
+      }
+    ]
+  },
+  "treatment": {
+    "items": [
+      {
+        "text": "右乳肿物乳腺癌改良根治术 2025-09-17",
+        "modality": "手术"
+      },
+      {
+        "text": "右乳肿物麦默通旋切术 2025-09-08",
+        "modality": "手术"
+      },
+      {
+        "text": "左乳结节麦默通旋切术 2025-09-08",
+        "modality": "手术"
+      }
+    ]
+  },
+  "orders": {
+    "items": [
+      {
+        "name": "氯化钠注射液",
+        "spec": "0.9%×250ml",
+        "dose_per": "250",
+        "unit": "ml",
+        "freq": "ONCE",
+        "duration_days": "1",
+        "route": "静滴",
+        "total_qty": "250ml",
+        "dose_combination": "帕妥珠单抗注射液（正大）",
+        "dose_combination_unit": "瓶",
+        "dose_combination_qty": "1",
+        "qc": "低置信:ONCE/1天提示日间化疗单次，需确认化疗周期",
+        "kind": "药品"
+      },
+      {
+        "name": "帕妥珠单抗注射液（正大）",
+        "spec": "420mg(14ml)/瓶",
+        "dose_per": "420",
+        "unit": "mg",
+        "freq": "ONCE",
+        "duration_days": "1",
+        "route": "静滴",
+        "total_qty": "1瓶",
+        "qc": "低置信:帕妥珠单抗标准方案为每3周1次，首剂840mg后维持420mg，本医嘱420mg提示维持剂量，duration_days缺失",
+        "kind": "药品"
+      },
+      {
+        "name": "氯化钠注射液(科伦)",
+        "spec": "0.9%×250ml",
+        "dose_per": "250",
+        "unit": "ml",
+        "freq": "ONCE",
+        "duration_days": "1",
+        "route": "静滴",
+        "total_qty": "250ml",
+        "qc": "低置信:ONCE/1天提示日间化疗单次，需确认化疗周期",
+        "kind": "药品"
+      },
+      {
+        "name": "氯化钠注射液(天成)",
+        "spec": "0.9%×100ml",
+        "dose_per": "100",
+        "unit": "ml",
+        "freq": "ONCE",
+        "duration_days": "1",
+        "route": "静滴",
+        "total_qty": "100ml",
+        "qc": "低置信:ONCE/1天提示日间化疗单次，需确认化疗周期",
+        "kind": "药品"
+      },
+      {
+        "name": "氯化钠注射液(科伦)",
+        "spec": "0.9%×250ml",
+        "dose_per": "250",
+        "unit": "ml",
+        "freq": "ONCE",
+        "duration_days": "1",
+        "route": "静滴",
+        "total_qty": "250ml",
+        "dose_combination": "注射用曲妥珠单抗",
+        "dose_combination_unit": "mg",
+        "dose_combination_qty": "300",
+        "qc": "低置信:ONCE/1天提示日间化疗单次，需确认化疗周期",
+        "kind": "药品"
+      },
+      {
+        "name": "注射用曲妥珠单抗",
+        "spec": "150mg",
+        "dose_per": "300",
+        "unit": "mg",
+        "freq": "ONCE",
+        "duration_days": "1",
+        "route": "静滴",
+        "total_qty": "300mg",
+        "qc": "低置信:曲妥珠单抗标准方案为每3周1次，维持剂量6mg/kg(首剂8mg/kg)，duration_days缺失，300mg为维持剂量范围偏低",
+        "kind": "药品"
+      },
+      {
+        "name": "注射用曲妥珠单抗",
+        "spec": "150mg",
+        "dose_per": "300",
+        "unit": "mg",
+        "freq": "ONCE",
+        "duration_days": "1",
+        "route": "静滴",
+        "total_qty": "300mg",
+        "qc": "低置信:与上条曲妥珠单抗重复，疑似拆分医嘱；曲妥珠单抗标准方案为每3周1次，duration_days缺失",
+        "kind": "药品"
+      },
+      {
+        "name": "氯化钠注射液(天成)",
+        "spec": "0.9%×100ml",
+        "dose_per": "100",
+        "unit": "ml",
+        "freq": "ONCE",
+        "duration_days": "1",
+        "route": "静滴",
+        "total_qty": "100ml",
+        "qc": "低置信:ONCE/1天提示日间化疗单次，需确认化疗周期",
+        "kind": "药品"
+      },
+      {
+        "name": "盐酸异丙嗪注射液",
+        "spec": "2ml:50mg×10支",
+        "dose_per": "1",
+        "unit": "支",
+        "freq": "ONCE",
+        "duration_days": "1",
+        "route": "肌注",
+        "total_qty": "1支",
+        "qc": "低置信:ONCE/1天提示日间化疗单次，需确认化疗周期",
+        "kind": "药品"
+      },
+      {
+        "name": "甘草酸单铵半胱氨酸氯化钠注射液",
+        "spec": "100ml",
+        "dose_per": "1",
+        "unit": "瓶",
+        "freq": "ONCE",
+        "duration_days": "1",
+        "route": "静滴",
+        "total_qty": "1瓶",
+        "qc": "低置信:ONCE/1天提示日间化疗单次，需确认化疗周期",
+        "kind": "药品"
+      },
+      {
+        "name": "一次性使用植入式给药装置留置针(巴德)",
+        "spec": "8652010/20G",
+        "manufacturer": "巴德",
+        "origin": "进口(美国)",
+        "unit": "支",
+        "total_qty": "1",
+        "kind": "操作"
+      },
+      {
+        "name": "糖基抗原CA125",
+        "spec": "",
+        "dose_per": "",
+        "unit": "",
+        "freq": "",
+        "duration_days": "",
+        "route": "静脉采血",
+        "total_qty": "",
+        "qc": "低置信:laterality未指明",
+        "kind": "检验"
+      },
+      {
+        "name": "糖基抗原CA153",
+        "spec": "",
+        "dose_per": "",
+        "unit": "",
+        "freq": "",
+        "duration_days": "",
+        "route": "静脉采血",
+        "total_qty": "",
+        "qc": "低置信:laterality未指明",
+        "kind": "检验"
+      },
+      {
+        "name": "糖基抗原CA199",
+        "spec": "",
+        "dose_per": "",
+        "unit": "",
+        "freq": "",
+        "duration_days": "",
+        "route": "静脉采血",
+        "total_qty": "",
+        "qc": "低置信:laterality未指明",
+        "kind": "检验"
+      },
+      {
+        "name": "癌胚抗原CEA",
+        "spec": "",
+        "dose_per": "",
+        "unit": "",
+        "freq": "",
+        "duration_days": "",
+        "route": "静脉采血",
+        "total_qty": "",
+        "qc": "低置信:laterality未指明",
+        "kind": "检验"
+      },
+      {
+        "name": "性激素六项(核医学)",
+        "spec": "",
+        "dose_per": "",
+        "unit": "",
+        "freq": "",
+        "duration_days": "",
+        "route": "静脉采血",
+        "total_qty": "",
+        "kind": "检验"
+      },
+      {
+        "name": "一次性使用人体静脉血样采集容器",
+        "spec": "黄色5.0ml/分离胶和促凝剂",
+        "manufacturer": "威海鸿宇",
+        "origin": "国产(威海)",
+        "unit": "支",
+        "total_qty": "2",
+        "kind": "操作"
+      },
+      {
+        "name": "静脉采血",
+        "spec": "",
+        "dose_per": "",
+        "unit": "",
+        "freq": "",
+        "duration_days": "",
+        "route": "",
+        "total_qty": "",
+        "kind": "操作"
+      },
+      {
+        "name": "一次性使用静脉采血针",
+        "spec": "AII-01型/0.8x27TWLB",
+        "manufacturer": "瑞邦",
+        "origin": "国产(江西)",
+        "unit": "支",
+        "total_qty": "1",
+        "kind": "操作"
+      },
+      {
+        "name": "彩色超声（腹部）",
+        "spec": "",
+        "dose_per": "",
+        "unit": "",
+        "freq": "",
+        "duration_days": "",
+        "route": "",
+        "total_qty": "",
+        "qc": "低置信:laterality未指明，检查范围未明确（肝胆胰脾肾等）",
+        "kind": "检查"
+      },
+      {
+        "name": "浅表器官超声检查(甲状腺)",
+        "spec": "",
+        "dose_per": "",
+        "unit": "",
+        "freq": "",
+        "duration_days": "",
+        "route": "",
+        "total_qty": "",
+        "qc": "低置信:laterality未指明",
+        "kind": "检查"
+      },
+      {
+        "name": "浅表器官超声检查（乳腺)",
+        "spec": "",
+        "dose_per": "",
+        "unit": "",
+        "freq": "",
+        "duration_days": "",
+        "route": "",
+        "total_qty": "",
+        "qc": "低置信:laterality未指明",
+        "kind": "检查"
+      },
+      {
+        "name": "CT平扫",
+        "spec": "",
+        "dose_per": "",
+        "unit": "",
+        "freq": "",
+        "duration_days": "",
+        "route": "",
+        "total_qty": "",
+        "qc": "低置信:扫描部位未明确（胸部/腹部/其他），laterality未指明",
+        "kind": "检查"
+      },
+      {
+        "name": "计算机体层成像(CT)平扫-薄层扫描(加收)",
+        "spec": "",
+        "dose_per": "",
+        "unit": "",
+        "freq": "",
+        "duration_days": "",
+        "route": "",
+        "total_qty": "",
+        "qc": "低置信:薄层扫描部位未明确，依赖上条CT平扫",
+        "kind": "检查"
+      },
+      {
+        "name": "肿瘤标志物：CA125、CA153、CA199、CEA",
+        "kind": "检验",
+        "source_field": "follow_up",
+        "source_category": "复查"
+      },
+      {
+        "name": "性激素六项(核医学)",
+        "kind": "检验",
+        "source_field": "follow_up",
+        "source_category": "复查"
+      },
+      {
+        "name": "浅表器官超声检查（乳腺)",
+        "kind": "检查",
+        "source_field": "follow_up",
+        "source_category": "复查"
+      },
+      {
+        "name": "浅表器官超声检查(甲状腺)",
+        "kind": "检查",
+        "source_field": "follow_up",
+        "source_category": "复查"
+      },
+      {
+        "name": "彩色超声（腹部）",
+        "kind": "检查",
+        "source_field": "follow_up",
+        "source_category": "复查"
+      },
+      {
+        "name": "CT平扫",
+        "kind": "检查",
+        "source_field": "follow_up",
+        "source_category": "复查"
+      }
+    ],
+    "advice": [
+      {
+        "content": "日间化疗",
+        "qc": "低置信:无明确随访周期说明"
+      },
+      {
+        "content": "植入式给药装置护理",
+        "qc": "低置信:护理频率及周期未明确"
+      },
+      {
+        "content": "抗肿瘤化学药物配置",
+        "qc": "低置信:化疗药物种类及配置要求未详细列出"
+      }
+    ],
+    "narrative": []
+  },
+  "follow_up": {
+    "items": []
+  },
+  "qc": {
+    "missing": [],
+    "low_conf": [],
+    "conflicts": [],
+    "review_status": "未核"
+  },
+  "meta": {
+    "assembled_from": [
+      "01_patient.json",
+      "01_qc.json",
+      "01_visit.json",
+      "02_chief_complaint.json",
+      "03_present_illness.json",
+      "04_past_history.json",
+      "05_physical_exam.json",
+      "06_auxiliary_exam.json",
+      "07a_diagnoses.json",
+      "07b_treatment.json",
+      "07c_orders.json",
+      "07d_follow_up.json"
+    ],
+    "order_kind_normalized": true
+  }
+}
